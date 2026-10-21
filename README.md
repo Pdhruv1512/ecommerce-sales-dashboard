@@ -8,7 +8,6 @@ An interactive sales dashboard built in Tableau Public from an e-commerce datase
 
 **Tools:** PostgreSQL · SQL · Tableau Public
 
----
 
 ## Business Questions
 
@@ -21,7 +20,6 @@ An interactive sales dashboard built in Tableau Public from an e-commerce datase
 | 5 | What are the best-selling products? | Top 10 products by revenue |
 | 6 | Where are returns concentrated? | Return rate by payment method |
 
----
 
 ## Key Insights
 
@@ -31,7 +29,6 @@ An interactive sales dashboard built in Tableau Public from an e-commerce datase
 - **Regional gap:** the Southwest leads with $258K (23% of revenue); the Midwest trails at $195K (17%), a potential target for regional marketing.
 - **Returns by payment method:** debit card orders are returned at 7.2%, more than double PayPal's 3.2%. Overall return rate is 5.3% (89 of 1,682 orders).
 
----
 
 ## How It Was Built
 
@@ -61,7 +58,6 @@ Before building charts, the Tableau total was checked against SQL: both report *
 - Orders and customers use **Count Distinct** for the same reason.
 - **Interactive filtering:** clicking a bar in *Revenue by Region* or *Revenue by Category* filters every other chart and KPI on the dashboard, so a manager can focus on one market or product line. For example, selecting the Southeast shows $237K revenue and a 12.9% debit card return rate.
 
----
 
 ## Project Structure
 
